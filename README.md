@@ -27,3 +27,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 -  3-2: _HTML & CSS - Primeiros passos em CSS_ :heavy_check_mark:
 -  3-3: _HTML & CSS - Seletores e posicionamento_ :heavy_check_mark:
 -  3-4: _HTML Semântico_ :heavy_check_mark:
+-  3-5: _Projeto - Lessons learned_ :heavy_check_mark: :rocket:
+
+### Bloco 4:  Introdução à JavaScript e Lógica de Programação 
+
+- 4-1: _Introdução - JavaScript_ : :heavy_check_mark:
+- 4-1: _JavaScript - Primeiros passos_ :heavy_check_mark:
+- 4-2: _JavaScript - Array e loop For_ :heavy_check_mark:
