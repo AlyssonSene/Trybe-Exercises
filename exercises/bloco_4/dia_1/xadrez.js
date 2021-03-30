@@ -19,4 +19,6 @@ switch (tipoDePeça) {
     case "rainha":
         console.log('Se movimenta e ataca em ambas as direções sem limites de casas');
         break;
+        default:
+            console.log('Peça inválida');
 }
