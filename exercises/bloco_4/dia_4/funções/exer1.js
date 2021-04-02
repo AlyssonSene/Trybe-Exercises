@@ -1,4 +1,4 @@
-let word = 'socorrammesubinoonibusemmarrocos';
+let word = 'arara';
 let aux;
 
 function verificaPalindrome(word) {
