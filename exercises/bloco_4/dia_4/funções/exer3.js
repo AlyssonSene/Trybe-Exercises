@@ -1,5 +1,5 @@
 let test = [2, 4, 6, 7, 10, 0, -3];
-function indiceDoMaior(test) {
+function indiceDoMenor(test) {
   let indiceMaior = 0;
   for (let indice in test) {
     if (test[indiceMaior] > test[indice]) {
@@ -8,4 +8,4 @@ function indiceDoMaior(test) {
   }
   return indiceMaior;
 }
-console.log(indiceDoMaior(test));
+console.log(indiceDoMenor(test));
