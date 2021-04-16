@@ -102,6 +102,18 @@
         elementDivMain.appendChild(elementH3);
         elementH3.className = "description";
       }
+
+      const divLeftContent = document.getElementsByClassName('left-content')[0];
+      elementDivMain.removeChild(divLeftContent);
+
+      const divRightContent = document.getElementsByClassName('right-content')[0];
+      divRightContent.style.marginRight='auto';
+
+      const divCenterContent = document.getElementsByClassName('center-content')[0];
+    divCenterContent.parentNode.style.backgroundColor = 'green';
+
+    elementUl.lastChild.remove();
+    elementUl.lastChild.remove();
     </script>
   </body>
 </html>
