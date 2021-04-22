@@ -37,3 +37,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - 4-3: _JavaScript - Lógica de Programação e Algoritmos_ :heavy_check_mark:
 - 4-4: _JavaScript - Objetos e Funções_ :heavy_check_mark:
 - 4-5: _Projeto - Playground Functions_ :heavy_check_mark: :rocket:
+
+### Bloco 5: Introdução - JavaScript - Projetos :heavy_check_mark:
+
+-  5-1: _JavaScript - DOM e seletores_ :heavy_check_mark:
+-  5-2: _JavaScript - Trabalhando com elementos_ :heavy_check_mark:
+-  5-3: _JavaScript - Eventos_ :heavy_check_mark:
+-  5-4: _JavaScript - Web Storage_ :heavy_check_mark:
+-  5-5: _[Projeto - Arte com Pixels]_ :heavy_check_mark:
+-  5-6: _[Projeto - Lista de tarefas]_ :heavy_check_mark:
