@@ -21,3 +21,8 @@ const numberFatorial = number => {
    return result;
 };
 console.log(numberFatorial(5));
+
+// recursiva
+
+const fatNumber = number => (number > 1 ) ? number * fatNumber(number - 1) : 1 ;
+console.log(fatNumber(5));
