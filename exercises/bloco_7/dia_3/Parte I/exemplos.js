@@ -1,4 +1,4 @@
-/* const assert = require('assert'); // Sintaxe para incluir o módulo assert
+const assert = require('assert'); // Sintaxe para incluir o módulo assert
 
 assert.strictEqual(50, 50); // Sem erros: 50 == 50
 assert.strictEqual(50, 70); // AssertionError: 50 == 70
@@ -41,7 +41,7 @@ assert.deepStrictEqual(person1, person2, 'Erro: person1 e person2 não são estr
 
 const person3 = { name: 'john', age: 19 };
 
-assert.notDeepStrictEqual(person1, person3, 'Erro: os valores dos objetos são estritamente iguais'); */
+assert.notDeepStrictEqual(person1, person3, 'Erro: os valores dos objetos são estritamente iguais');
 
 const assert = require('assert');
 
