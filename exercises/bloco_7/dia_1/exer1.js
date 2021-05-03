@@ -1,5 +1,7 @@
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+
 //metodo com buble sort
+
 const NumOrdered = (oddsAndEvens) => {
   for (let index = 0; index <= oddsAndEvens.length; index += 1) {
     for (let index2 = 1; index2 <= oddsAndEvens.length; index2 += 1) {
