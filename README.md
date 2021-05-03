@@ -46,3 +46,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 -  5-4: _JavaScript - Web Storage_ :heavy_check_mark:
 -  5-5: _Projeto - Arte com Pixels_ :heavy_check_mark:
 -  5-6: _Projeto - Lista de tarefas_ :heavy_check_mark:
+
+### Bloco 6: HTML & CSS avançado :heavy_check_mark:
+
+- 6-1: _HTML & CSS - Forms_ :heavy_check_mark:
+- 6-2: _Bibliotecas JavaScript e Frameworks CSS_ :heavy_check_mark:
+- 6-3: _CSS Flexbox - Part 1_ :heavy_check_mark:
+- 6-4: _CSS Flexbox - Part 2_ :heavy_check_mark:
+- 6-5: _CSS Responsivo - Mobile First_ :heavy_check_mark:
+- 6-6: _Projeto - Trybewarts_ :heavy_check_mark: :rocket:
+
+### Bloco 7: JavaScript ES6 & Testes Unitários :heavy_check_mark:
+
+- 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_ :heavy_check_mark:
+- 7-2: _JavaScript ES6 - Objects_ :heavy_check_mark:
+- 7-3: _Testes unitários em JavaScript_ :heavy_check_mark:
