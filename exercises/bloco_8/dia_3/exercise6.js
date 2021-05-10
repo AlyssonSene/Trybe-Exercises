@@ -69,6 +69,8 @@ const expectedResult = [
   'O Chamado de Cthulhu',
 ];
 
+//comando para gerar data atual const currentYear = new Date().getFullYear();
+
 function oldBooks() {
   return books
   .filter((book) => (2021 - book.releaseYear > 60))
