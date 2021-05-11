@@ -34,7 +34,6 @@ const books = [
   {
     id: 4,
     name: 'Duna',
-    genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
@@ -63,16 +62,24 @@ const books = [
   },
 ];
 
-const expectedResult = 43;
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin',
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991,
+};
 
-
-function averageAge() {
-  // const ages = books.map((book) => (book.releaseYear - book.author.birthYear));
-  // const bookLength = ages.length;
-  const numOfBooks = books.length;
-  const average = books.reduce((acc, curr) => (acc + (curr.releaseYear - curr.author.birthYear)), 0);
-  return average / numOfBooks;
-
+function longestNamedBook() {
+  return books.reduce((book, currentBook) => {
+    if (currentBook.name.length > book.name.length) {
+      return currentBook;
+    }
+    return book;
+  });
 }
-console.log(averageAge(books));
-assert.strictEqual(averageAge(), expectedResult);
+
+assert.deepStrictEqual(longestNamedBook(), expectedResult);
