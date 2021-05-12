@@ -1,5 +1,5 @@
-let word = 'arara';
-let aux;
+let word = 'desenvolvimneto';
+let aux = '';
 
 function verificaPalindrome(word) {
   aux = word.split('').reverse().join('');

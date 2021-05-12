@@ -61,3 +61,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_ :heavy_check_mark:
 - 7-2: _JavaScript ES6 - Objects_ :heavy_check_mark:
 - 7-3: _Testes unitários em JavaScript_ :heavy_check_mark:
+- 7-4: _Projeto -js-unit-tests_ :heavy_check_mark: :rocket:
+
+### Bloco 8: JavaScript ES6 :heavy_check_mark:
+
+- 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ :heavy_check_mark:
+- 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark:
+- 8-3: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark:
+- 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark:
