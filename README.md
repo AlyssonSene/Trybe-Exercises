@@ -17,7 +17,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 -  2-1: _O que é e para que serve?_ :heavy_check_mark:  
 -  2-2: _Entendendo os comandos_ :heavy_check_mark:
--  2-3: _Internet - Entendendo como ela funciona_ :heavy_check_mark:
+-  2-3: _Internet - Entendendo como ela funciona_ :heavy_check_mark: 
 
 ### Bloco 3: Introdução - HTML & CSS :heavy_check_mark:
 
@@ -43,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 -  5-3: _JavaScript - Eventos_ :heavy_check_mark:
 -  5-4: _JavaScript - Web Storage_ :heavy_check_mark:
 -  5-5: _Projeto - Arte com Pixels_ :heavy_check_mark:
--  5-6: _Projeto - Lista de tarefas_ :heavy_check_mark:
+-  5-6: _Projeto - Lista de tarefas_ :heavy_check_mark: :rocket:
 
 ### Bloco 6: HTML & CSS avançado :heavy_check_mark:
 
@@ -59,7 +59,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_ :heavy_check_mark:
 - 7-2: _JavaScript ES6 - Objects_ :heavy_check_mark:
 - 7-3: _Testes unitários em JavaScript_ :heavy_check_mark:
-- 7-4: _Projeto -js-unit-tests_ :heavy_check_mark: :rocket:
+- 7-4: _Projeto -js-unit-tests_ :heavy_check_mark: :rocket: 
 
 ### Bloco 8: JavaScript ES6 :heavy_check_mark:
 
@@ -68,20 +68,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark:
 - 8-4: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark:
 - 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark:
-- 8-6: _Projeto - Zoo functions_ :heavy_check_mark:
+- 8-6: _Projeto - Zoo functions_ :heavy_check_mark: :rocket:
 
 ### Bloco 9: Assincronicidade & Callbacks :heavy_check_mark::
 
 - 9-1: _JavaScript Assíncrono e Callbacks_ :heavy_check_mark:
 - 9-2: _JavaScript Promises_ :heavy_check_mark:
-- 9-3: _Projeto - Carrinho de Compras_ :heavy_check_mark:
+- 9-3: _Projeto - Carrinho de Compras_ :heavy_check_mark: :rocket:
 
 ### Bloco 10: Jest :hourglass_flowing_sand: :heavy_check_mark:
 
 - 10-1: _Primeiros passos no Jest_ :heavy_check_mark:
 - 10-2: _Jest - Testes Assíncronos_ :heavy_check_mark:
 - 10-3: _Jest - Simulando comportamentos_ :heavy_check_mark:
-- 10-4: _Projeto - Jest Assíncrono e Mocking_ :heavy_check_mark:
+- 10-4: _Projeto - Jest Assíncrono e Mocking_ :heavy_check_mark: :rocket:
 
 # Desenvolvimento Front-end :hourglass_flowing_sand: :rocket:
 
@@ -89,4 +89,4 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - 11-1: _'Hello, world!' no React!_ :heavy_check_mark:
 - 11-2: _Componentes React_ :heavy_check_mark:
-- 11-3: _Projeto - Movie Cards Library_ :heavy_check_mark:
+- 11-3: _Projeto - Movie Cards Library_ :heavy_check_mark: :rocket:
