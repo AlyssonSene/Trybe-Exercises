@@ -76,17 +76,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - 9-2: _JavaScript Promises_ :heavy_check_mark:
 - 9-3: _Projeto - Carrinho de Compras_ :heavy_check_mark:
 
-### Bloco 10: Jest :hourglass_flowing_sand:
+### Bloco 10: Jest :hourglass_flowing_sand: :heavy_check_mark:
 
-- 10-1: _Primeiros passos no Jest_
-- 10-2: _Jest - Testes Assíncronos_
-- 10-3: _Jest - Simulando comportamentos_
-- 10-4: _Projeto - Jest Assíncrono e Mocking_
+- 10-1: _Primeiros passos no Jest_ :heavy_check_mark:
+- 10-2: _Jest - Testes Assíncronos_ :heavy_check_mark:
+- 10-3: _Jest - Simulando comportamentos_ :heavy_check_mark:
+- 10-4: _Projeto - Jest Assíncrono e Mocking_ :heavy_check_mark:
 
-# Desenvolvimento Front-end :hourglass_flowing_sand:
+# Desenvolvimento Front-end :hourglass_flowing_sand: :rocket:
 
-### Bloco 11: Introdução - React :hourglass_flowing_sand:
+### Bloco 11: Introdução - React :hourglass_flowing_sand: :heavy_check_mark:
 
-- 11-1: _'Hello, world!' no React!_
-- 11-2: _Componentes React_
-- 11-3: _Projeto - Movie Cards Library_
+- 11-1: _'Hello, world!' no React!_ :heavy_check_mark:
+- 11-2: _Componentes React_ :heavy_check_mark:
+- 11-3: _Projeto - Movie Cards Library_ :heavy_check_mark:
