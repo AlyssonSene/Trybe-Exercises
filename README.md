@@ -1,6 +1,4 @@
 # Trybe - 
-***As informações desse repositŕio foram inspiradas no arquivo README disponiblizado pelo aluno _[Rafael Moura - turma 08](https://www.linkedin.com/in/rafaelcostamoura/)_ via slack.***
-
 
 Este repositório contem todos os exercícios e atividades desenvolvidas por _[Alysson Sene](https://www.linkedin.com/in/AlyssonSene/)_ aluno do curso de Desenvolvimento de Software - da [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -65,7 +63,30 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 8: JavaScript ES6 :heavy_check_mark:
 
-- 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ :heavy_check_mark:
-- 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark:
-- 8-3: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark:
-- 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark:
+- 8-1: _JavaScript ES6 - Higher Order Functions_ :heavy_check_mark:
+- 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ :heavy_check_mark:
+- 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark:
+- 8-4: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark:
+- 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark:
+- 8-6: _Projeto - Zoo functions_ :heavy_check_mark:
+
+### Bloco 9: Assincronicidade & Callbacks :heavy_check_mark::
+
+- 9-1: _JavaScript Assíncrono e Callbacks_ :heavy_check_mark:
+- 9-2: _JavaScript Promises_ :heavy_check_mark:
+- 9-3: _Projeto - Carrinho de Compras_ :heavy_check_mark:
+
+### Bloco 10: Jest :hourglass_flowing_sand:
+
+- 10-1: _Primeiros passos no Jest_
+- 10-2: _Jest - Testes Assíncronos_
+- 10-3: _Jest - Simulando comportamentos_
+- 10-4: _Projeto - Jest Assíncrono e Mocking_
+
+# Desenvolvimento Front-end :hourglass_flowing_sand:
+
+### Bloco 11: Introdução - React :hourglass_flowing_sand:
+
+- 11-1: _'Hello, world!' no React!_
+- 11-2: _Componentes React_
+- 11-3: _Projeto - Movie Cards Library_
