@@ -19,12 +19,20 @@ class App extends Component {
       numeroDeClicks: estadoAnterior.numeroDeClicks + 1
     }))
   }
+  changeColor = () => {
+    this.setState((estadoAnterior, _props) => ({
+      
+    }))
+  }
 
   render() {
     return (
       <div className="App">
         <p className="clicks">{this.state.numeroDeClicks}</p>
-        <button onClick={this.handleClick} className="button">Aperte aqui </button>
+        <div >
+          <button onClick={this.handleClick} className="button">Aperte aqui </button>
+        </div>
+       
       </div>
     )
   }
