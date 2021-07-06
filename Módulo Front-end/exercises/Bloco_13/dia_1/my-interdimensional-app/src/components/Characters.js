@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FindCharacter from './FindCharacter';
 
 export default class Characters extends Component {
     constructor(props){
@@ -27,6 +28,7 @@ export default class Characters extends Component {
         <h1>
           Ricky and Morty Characters:
         </h1>
+        <FindCharacter />
         <div className="body">
           {characters.map(({ name, image }) => {
             return (
