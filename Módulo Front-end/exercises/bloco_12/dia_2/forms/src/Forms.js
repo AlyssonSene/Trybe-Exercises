@@ -25,6 +25,7 @@ export default class Forms extends Component {
     });
   }
   render() {
+    const { name, email, age, moreInfo, checkbox } = this.props;
     return (
       <div>
         <h1> Meu forms em React</h1>
@@ -36,7 +37,7 @@ export default class Forms extends Component {
                 name="name" 
                 type="text" 
                 placeholder="Name" 
-                value={this.state.name} 
+                value={ name } 
                 onChange={this.handleChange}>
               </input>
           </label><br/>
@@ -47,7 +48,7 @@ export default class Forms extends Component {
                 name="email"
                 type="email" 
                 placeholder="exemplo@email.com" 
-                value={this.state.email} 
+                value={ email } 
                 onChange={this.handleChange}>
               </input>
           </label><br/>
@@ -56,7 +57,7 @@ export default class Forms extends Component {
             Idade: 
               <input type="number"
                 name="age" 
-                value={this.state.age} 
+                value={ age } 
                 onChange={this.handleChange}>
               </input>
           </label><br/>
@@ -67,7 +68,7 @@ export default class Forms extends Component {
                 name="moreInfo"
                 placeholder="Conte um puco sobre você" 
                 maxLength="100"
-                value={this.state.moreInfo} 
+                value={ moreInfo } 
                 onChange={this.handleChange}>
               </textarea>
           </label><br/>
@@ -77,7 +78,7 @@ export default class Forms extends Component {
               <input 
                 name="checkbox" 
                 type="checkbox" 
-                value={this.state.checkbox} 
+                value={ checkbox } 
                 onChange={this.handleChange}>
               </input>
           </label>
