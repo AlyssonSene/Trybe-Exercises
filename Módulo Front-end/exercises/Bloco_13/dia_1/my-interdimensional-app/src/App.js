@@ -1,39 +1,56 @@
 import React, { Component } from 'react';
 import './App.css';
+import fetchAPI from './components/services/api';
+import ListCharacters from './components/ListCharacters';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import SearchBar from './components/SearchBar';
 
-export default class App extends Component {
-  constructor(props){
-    super(props);
+class App extends Component {
+  constructor() {
+    super();
     this.state = {
-        characters: [],
+      characters: [],
+      isFetching: true,
+      c: [],
     };
+
+    this.setFilter = this.setFilter.bind(this);
   }
 
-  componentDidMount() {
-    fetch('https://rickandmortyapi.com/api/character')
-    .then(response => response.json())
-    .then(data => {
-      this.setState({characters: data.results})
-    })
+  async componentDidMount() {
+    const characters = await fetchAPI();
+    this.setCharacters(characters);
   }
+
+  setCharacters(characters) {
+    this.setState((state) => ({
+      ...state,
+      characters: [...characters],
+      isFetching: false,
+      c: [...characters],
+    }));
+  }
+
+  setFilter(founds) {
+    this.setState((state) => ({ ...state, c: [...founds] }));
+    return founds;
+  }
+
   render() {
-    const { characters } = this.state;
+    const { characters, isFetching, c } = this.state;
+
     return (
-      <div className="App">
-        <h1>
-          Ricky and Morty Characters:
-        </h1>
-        <div className="body">
-          {characters.map(({ name, image }) => {
-            return (
-              <div className="container" key={name}>
-                <h3>{name}</h3>
-                <img src={image} alt={name}/>
-              </div>
-            )
-          })}
-        </div>
-      </div>
+      <>
+        <Header />
+        <main>
+          <SearchBar characters={ characters } setFilter={ this.setFilter } />
+          <ListCharacters characters={ c } isFetching={ isFetching } />
+        </main>
+        <Footer />
+      </>
     );
   }
 }
+
+export default App;
