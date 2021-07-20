@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Footer extends React.Component {
+export default class Footer extends Component {
   render() {
     return (
-      <footer className="footer-content">
-        Desenvolvido por Alysson Sene -  Turma 12
-      </footer>
+      <div>
+        <footer className="footer-content">
+          Desenvolvido por Alysson Sene -  Turma 12
+        </footer>
+      </div>
     );
   }
 }
-
-export default Footer;

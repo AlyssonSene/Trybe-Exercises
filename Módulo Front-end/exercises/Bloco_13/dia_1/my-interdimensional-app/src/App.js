@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import fetchAPI from './services/api';
+import fetchAPI from './components/services/api';
 import ListCharacters from './components/ListCharacters';
-import HomeFooter from './components/HomeFooter';
-import HomeHeader from './components/HomeHeader';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 
 class App extends Component {
@@ -42,12 +42,12 @@ class App extends Component {
 
     return (
       <>
-        <HomeHeader />
+        <Header />
         <main>
           <SearchBar characters={ characters } setFilter={ this.setFilter } />
           <ListCharacters characters={ c } isFetching={ isFetching } />
         </main>
-        <HomeFooter />
+        <Footer />
       </>
     );
   }
